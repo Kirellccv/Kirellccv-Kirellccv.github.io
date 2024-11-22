@@ -4,8 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AlaMano</title>
+<title>A la Mano</title>
+<!-- Versión local de Bootstrap -->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<!-- Otros estilos adicionales -->
 <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/JKS-icons.css">
 <link rel="stylesheet" type="text/css" href="css/settings.css">
@@ -15,7 +18,9 @@
 <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/loader.css">
-<link rel="shortcut icon" href="images/favicon.png">
+
+<!-- Carga del JavaScript de Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
 <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -60,13 +65,13 @@
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#fixed-collapse-navbar" aria-expanded="false"> 
             <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> 
             </button>
-          <a class="navbar-brand" href="index2.html"><img src="images/nuevas/logoo.png" alt="logo" class="img-responsive"></a> 
+          <a class="navbar-brand" href="index.html"><img src="images/nuevas/Endlogo_.png" alt="logo" class="img-responsive"></a> 
          </div>
         
             <div id="fixed-collapse-navbar" class="navbar-collapse collapse navbar-right">
               <ul class="nav navbar-nav">
                 <li>
-                  <a href="index2.html">Inicio</a>
+                  <a href="index.html">Inicio</a>
                 
                 </li>
                 <li><a href="food.html">Nuestros Productos</a></li>
@@ -75,7 +80,7 @@
                     <li><a href="about.html">Sobre Nosotros</a></li>
                     <li><a href="faq.html">Preguntas Frecuentes</a></li>
                   
-                <li><a href="./account/register.php">Ordena Ahora</a></li>
+                <li><a href="./account/login.php">Ordena Ahora</a></li>
                 
               </ul>
             </div>
@@ -85,6 +90,7 @@
      </div>
   </div>
 </header>
+
 
 <!--Page header & Title-->
 <section id="page_header">
@@ -104,11 +110,202 @@
 
 
 <!--Food Facilities-->
+<div id="food" class="section padding bg_grey">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="heading">Frutas y Verduras</h2>
+        <hr/>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/calabaza.jpg" class="img-fluid" alt="Calabaza"/>
+          <h4>Calabaza(quintal)</h4>
+          <p>50 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/arberja.jpg" class="img-fluid" alt="Arberja"/>
+          <h4>Arberja(Arroba)</h4>
+          <p>30 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/cebolla.jpg" class="img-fluid" alt="Cebolla"/>
+          <h4>Cebolla(Gangocho)</h4>
+          <p>50 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/lechuga.jpg" class="img-fluid" alt="Lechuga"/>
+          <h4>Lechuga (Quepi)</h4>
+          <p>120 - 150 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/palta.jpg" class="img-fluid" alt="Palta"/>
+          <h4>Palta (Caja)</h4>
+          <p>300 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/papalisa.jpg" class="img-fluid" alt="Papalisa"/>
+          <h4>Papalisa (Saco)</h4>
+          <p>250 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/pepino.jpg" class="img-fluid" alt="Pepino"/>
+          <h4>Pepino (Gangocho)</h4>
+          <p>60 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/pimenton.jpg" class="img-fluid" alt="Pimentón"/>
+          <h4>Pimentón (Cuartilla)</h4>
+          <p>14 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/remolacha.jpg" class="img-fluid" alt="Remolacha"/>
+          <h4>Remolacha (Saco)</h4>
+          <p>250 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/tomate.jpg" class="img-fluid" alt="Tomate"/>
+          <h4>Tomate (Caja)</h4>
+          <p>70 Bs</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/zanahoria.jpg" class="img-fluid" alt="Zanahoria"/>
+          <h4>Zanahoria (Gangocho)</h4>
+          <p>180 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/cereza.jpg" class="img-fluid" alt="Cereza"/>
+          <h4>Cereza(kilo)</h4>
+          <p>7 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/frutilla.jpg" class="img-fluid" alt="Frutilla"/>
+          <h4>Frutilla(caja)</h4>
+          <p>8 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/granada.jpg" class="img-fluid" alt="Granada"/>
+          <h4>Granada(Caja)</h4>
+          <p>80 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/mandarina.jpg" class="img-fluid" alt="Mandarina"/>
+          <h4>Mandarina(25U)</h4>
+          <p>15 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/mango.jpg" class="img-fluid" alt="Mango"/>
+          <h4>Mango(caja)</h4>
+          <p>80BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/manzana2.jpg" class="img-fluid" alt="Manzana"/>
+          <h4>Manzana(Caja)</h4>
+          <p>210 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/papaya.jpg" class="img-fluid" alt="Papaya"/>
+          <h4>Papaya(caja)</h4>
+          <p>210 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/pera.jpg" class="img-fluid" alt="Pera"/>
+          <h4>Pera(Caja)</h4>
+          <p>180 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/piña.jpg" class="img-fluid" alt="Piña"/>
+          <h4>Piña(100U)</h4>
+          <p>600 BS</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="item-container text-center">
+          <img src="images/finalImagenesProductos/platano.jpg" class="img-fluid" alt="Plátano"/>
+          <h4>Plátano(100U)</h4>
+          <p>30 BS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!-- Fin carrusel de imágenes -->
+  </div>
+</div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <section id="food" class="padding bg_grey">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="heading"> &nbsp; Productos</h2>
+        <h2 class="heading"> &nbsp; Lacteos y Huevos</h2>
         <hr class="heading_space">
       </div>
     </div>
@@ -119,85 +316,72 @@
             <!-- Primera fila -->
             <div class="col-md-4">
               <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout2.jpg" alt="Classic Nachos" class="img-fluid animated-img" />
+                <!-- Carrusel de imágenes -->
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/finalImagenesProductos/MaplesDeHuevo - copia.jpg" alt="Classic Nachos" class="img-fluid" />
+                    </div>
+                  </div>
                 </div>
-                <h4>Classic Nachos</h4>
-                <p>INR 499.00</p>
+                <!-- Fin carrusel de imágenes -->
+                <h4>Maples de Huevo</h4>
+                <p>18Bs</p>
               </div>
             </div>
+            
             <div class="col-md-4">
               <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout3.jpg" alt="Nachos Grande" class="img-fluid animated-img" />
+                <!-- Carrusel de imágenes -->
+                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/finalImagenesProductos/leche1litro - copia.jpg" alt="Leche 1 Litro" class="img-fluid" />
+                    </div>
+                  </div>
                 </div>
-                <h4>Nachos Grande</h4>
-                <p>INR 249.00</p>
+                <!-- Fin carrusel de imágenes -->
+                
+                <!-- Descripción y precio debajo de la imagen -->
+                <h4>Leche 1 Litro</h4>
+                <p> 3.20 Bs</p>
               </div>
             </div>
+            
             <div class="col-md-4">
               <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout4.jpg" alt="Avocado Shell Stuffed" class="img-fluid animated-img" />
+                <!-- Carrusel de imágenes -->
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/finalImagenesProductos/leche50litros - copia.jpg" alt="Leche 50 Litros" class="img-fluid" />
+                    </div>
+                  </div>
                 </div>
-                <h4>Avocado Shell Stuffed</h4>
-                <p>INR 150.00</p>
+                <!-- Fin carrusel de imágenes -->
+            
+                <!-- Descripción y precio debajo de la imagen -->
+                <h4>Leche 50 Litros</h4>
+                <p> 160 Bs</p>
               </div>
             </div>
             <!-- Segunda fila -->
             <div class="col-md-4">
               <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout5.jpg" alt="Stuffed Mushroom" class="img-fluid animated-img" />
+                <!-- Carrusel de imágenes -->
+                <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/finalImagenesProductos/yogurts - copia.jpg" alt="Classic Nachos" class="img-fluid" />
+                    </div>
+                  </div>
                 </div>
-                <h4>Stuffed Mushroom</h4>
-                <p>INR 199.00</p>
+                <!-- Fin carrusel de imágenes -->
+            
+                <h4> Yogurt </h4>
+                <p> 12Bs</p>
               </div>
             </div>
-            <div class="col-md-4">
-              <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout2.jpg" alt="Baked Potato Jackets" class="img-fluid animated-img" />
-                </div>
-                <h4>Baked Potato Jackets</h4>
-                <p>INR 99.00</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout3.jpg" alt="Mexican Taco" class="img-fluid animated-img" />
-                </div>
-                <h4>Mexican Taco</h4>
-                <p>INR 899.00</p>
-              </div>
-            </div>
-            <!-- Tercera fila -->
-            <div class="col-md-4">
-              <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout4.jpg" alt="Tex-Mex Chicken" class="img-fluid animated-img" />
-                </div>
-                <h4>Tex-Mex Chicken</h4>
-                <p>INR 1250.00</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout5.jpg" alt="Quesadillas Acapulco" class="img-fluid animated-img" />
-                </div>
-                <h4>Quesadillas Acapulco</h4>
-                <p>INR 399.00</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="item-container text-center">
-                <div class="image-container">
-                  <img src="images/grid-layout2.jpg" alt="Garbo Chicken" class="img-fluid animated-img" />
-                </div>
-                <h4>Garbo Chicken</h4>
-                <p>INR 39.00</p>
               </div>
             </div>
           </div>
@@ -208,27 +392,33 @@
 </section>
 
 
-
-
-
-
 <!--Footer-->
 <footer class="padding-top bg_black">
   <div class="container">
     <div class="row">
-      <div class="col-md-3 col-sm-6 footer_column">
-        <h4 class="heading">Enlaces rapidos</h4>
-        <hr class="half_space">
-        <ul class="widget_links">
-          <li><a href="index2.html">Inicio</a></li>
-          <li><a href="food.html">Nuestros Productos</a></li>
-          <li><a href="about.html">Sobre Nosotros</a></li>
-          
-          <li><a href="faq.html">Preguntas Frecuentes</a></li>
-          <li><a href="./account/register.php"> Ordena Ahora</a></li>
-          
-        </ul>
-      </div>
+      <style>
+        .footer_column a {
+          display: block;
+          margin: 10px 0;
+          text-decoration: none;
+          transition: transform 0.2s ease;
+        }
+        
+        .footer_column a:hover {
+          transform: translateX(10px);
+          color: #ff6b6b;
+        }
+        </style>
+        
+        <div class="col-md-3 col-sm-6 footer_column">
+          <h4 class="heading">ENLACES RÁPIDOS</h4>
+          <hr/>
+          <a href="index.html">Inicio</a>
+          <a href="food.html">Nuestros Productos</a>
+          <a href="about.html">Sobre Nosotros</a>
+          <a href="faq.html">Preguntas Frecuentes</a>
+          <a href="./account/register.php">Ordena Ahora</a>
+        </div>
       <div class="col-md-3 col-sm-6 footer_column">
         <h4 class="heading">Mas Informacion</h4>
         <hr class="half_space">
@@ -250,7 +440,7 @@
         <p></p>
         <p class="address"><i class="icon-location"></i>AV.Circunvalacion N6464</p>
         <p class="address"><i class="fa fa-phone"></i>+591 76414459</p>
-        <p class="address"><i class="icon-dollar"></i><a href="office@jks.com">AlaMano@gmail.com</a></p>
+        <p class="address"><i class="icon-dollar"></i><a href="">AlaMano@gmail.com</a></p>
       </div> 
     </div>
     <div class="row">
@@ -279,6 +469,7 @@
 <script src="js/jquery.fancybox.js"></script>
 <script src="js/jquery.mixitup.min.js"></script>
 <script src="js/functions.js" type="text/javascript"></script>
+
 
 </body>
 </html>
